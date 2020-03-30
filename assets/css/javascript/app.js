@@ -2,12 +2,16 @@ var totalMinutes = 0
 var totalSeconds = 0
 var status = 'start'
 
+document.getElementById('startBtn').addEventListener('click', event => { document.getElementById('minutes').textCounter = 2: 00 })
+
 function startTimer() {
-  setTime()
+  setTime() => {
+    document.getElementById('minutes').textContent = counter
+    if (counter === 0) {
+      counter = 2: 00
+    }
+  }, 1000)
 }
-
-
-
 
 const questions = [
   {
