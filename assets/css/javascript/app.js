@@ -1,3 +1,14 @@
+var totalMinutes = 0
+var totalSeconds = 0
+var status = 'start'
+
+function startTimer() {
+  setTime()
+}
+
+
+
+
 const questions = [
   {
     question: 'What do you use for an array?'
